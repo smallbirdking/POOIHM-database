@@ -1,0 +1,799 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 warn package.json pooihm2015@0.0.1 No description
+6 warn package.json pooihm2015@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/user/Bureau/POOIHM/IHMF/poo-ihm-2015-database',
+8 verbose install   [ 'express', 'http', 'pg', 'sequelize', 'sequelize-restful' ] ]
+9 info preinstall pooihm2015@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'pg@^3.4.1', null ]
+12 verbose cache add name=undefined spec="pg@^3.4.1" args=["pg@^3.4.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'pg@^3.4.1',
+13 verbose parsed url   path: 'pg@^3.4.1',
+13 verbose parsed url   href: 'pg@^3.4.1' }
+14 verbose cache add [ 'sequelize@^1.7.9', null ]
+15 verbose cache add name=undefined spec="sequelize@^1.7.9" args=["sequelize@^1.7.9",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'sequelize@^1.7.9',
+16 verbose parsed url   path: 'sequelize@^1.7.9',
+16 verbose parsed url   href: 'sequelize@^1.7.9' }
+17 verbose cache add name="pg" spec="^3.4.1" args=["pg","^3.4.1"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '^3.4.1',
+18 verbose parsed url   path: '^3.4.1',
+18 verbose parsed url   href: '^3.4.1' }
+19 verbose addNamed [ 'pg', '^3.4.1' ]
+20 verbose addNamed [ null, '>=3.4.1-0 <4.0.0-0' ]
+21 verbose cache add name="sequelize" spec="^1.7.9" args=["sequelize","^1.7.9"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '^1.7.9',
+22 verbose parsed url   path: '^1.7.9',
+22 verbose parsed url   href: '^1.7.9' }
+23 verbose addNamed [ 'sequelize', '^1.7.9' ]
+24 verbose addNamed [ null, '>=1.7.9-0 <2.0.0-0' ]
+25 verbose cache add [ 'sequelize-restful@https://github.com/surli/sequelize-restful',
+25 verbose cache add   null ]
+26 verbose cache add name=undefined spec="sequelize-restful@https://github.com/surli/sequelize-restful" args=["sequelize-restful@https://github.com/surli/sequelize-restful",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'sequelize-restful@https://github.com/surli/sequelize-restful',
+27 verbose parsed url   path: 'sequelize-restful@https://github.com/surli/sequelize-restful',
+27 verbose parsed url   href: 'sequelize-restful@https://github.com/surli/sequelize-restful' }
+28 verbose cache add [ 'express@^4.8.3', null ]
+29 verbose cache add name=undefined spec="express@^4.8.3" args=["express@^4.8.3",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'express@^4.8.3',
+30 verbose parsed url   path: 'express@^4.8.3',
+30 verbose parsed url   href: 'express@^4.8.3' }
+31 verbose cache add [ 'http@0.0.0', null ]
+32 verbose cache add name=undefined spec="http@0.0.0" args=["http@0.0.0",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'http@0.0.0',
+33 verbose parsed url   path: 'http@0.0.0',
+33 verbose parsed url   href: 'http@0.0.0' }
+34 silly lockFile b5cc6abf-pg-3-4-1 pg@^3.4.1
+35 verbose lock pg@^3.4.1 /home/user/.npm/b5cc6abf-pg-3-4-1.lock
+36 silly lockFile be388cdd-sequelize-1-7-9 sequelize@^1.7.9
+37 verbose lock sequelize@^1.7.9 /home/user/.npm/be388cdd-sequelize-1-7-9.lock
+38 verbose cache add name="sequelize-restful" spec="https://github.com/surli/sequelize-restful" args=["sequelize-restful","https://github.com/surli/sequelize-restful"]
+39 verbose parsed url { protocol: 'https:',
+39 verbose parsed url   slashes: true,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: 'github.com',
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: 'github.com',
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '/surli/sequelize-restful',
+39 verbose parsed url   path: '/surli/sequelize-restful',
+39 verbose parsed url   href: 'https://github.com/surli/sequelize-restful' }
+40 silly lockFile 1ca755e5-thub-com-surli-sequelize-restful https://github.com/surli/sequelize-restful
+41 verbose lock https://github.com/surli/sequelize-restful /home/user/.npm/1ca755e5-thub-com-surli-sequelize-restful.lock
+42 verbose cache add name="express" spec="^4.8.3" args=["express","^4.8.3"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '^4.8.3',
+43 verbose parsed url   path: '^4.8.3',
+43 verbose parsed url   href: '^4.8.3' }
+44 verbose addNamed [ 'express', '^4.8.3' ]
+45 verbose addNamed [ null, '>=4.8.3-0 <5.0.0-0' ]
+46 silly lockFile 12ef111c-express-4-8-3 express@^4.8.3
+47 verbose lock express@^4.8.3 /home/user/.npm/12ef111c-express-4-8-3.lock
+48 verbose cache add name="http" spec="0.0.0" args=["http","0.0.0"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '0.0.0',
+49 verbose parsed url   path: '0.0.0',
+49 verbose parsed url   href: '0.0.0' }
+50 verbose addNamed [ 'http', '0.0.0' ]
+51 verbose addNamed [ '0.0.0', '0.0.0' ]
+52 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+53 verbose lock http@0.0.0 /home/user/.npm/5c64bf45-http-0-0-0.lock
+54 silly addNameRange { name: 'pg', range: '>=3.4.1-0 <4.0.0-0', hasData: false }
+55 silly addNameRange { name: 'sequelize',
+55 silly addNameRange   range: '>=1.7.9-0 <2.0.0-0',
+55 silly addNameRange   hasData: false }
+56 verbose addRemoteTarball [ 'https://github.com/surli/sequelize-restful', null ]
+57 silly addNameRange { name: 'express', range: '>=4.8.3-0 <5.0.0-0', hasData: false }
+58 verbose request where is /pg
+59 verbose request registry https://registry.npmjs.org/
+60 verbose request id 05fea5b67486f670
+61 verbose url raw /pg
+62 verbose url resolving [ 'https://registry.npmjs.org/', './pg' ]
+63 verbose url resolved https://registry.npmjs.org/pg
+64 verbose request where is https://registry.npmjs.org/pg
+65 info trying registry request attempt 1 at 15:42:11
+66 verbose etag "EO0OJRGUHKVGVIR0BEAIMAI5J"
+67 http GET https://registry.npmjs.org/pg
+68 verbose request where is /sequelize
+69 verbose request registry https://registry.npmjs.org/
+70 verbose url raw /sequelize
+71 verbose url resolving [ 'https://registry.npmjs.org/', './sequelize' ]
+72 verbose url resolved https://registry.npmjs.org/sequelize
+73 verbose request where is https://registry.npmjs.org/sequelize
+74 info trying registry request attempt 1 at 15:42:11
+75 verbose etag "1W0KK8WNWCU6P3SYM1WKX4BIF"
+76 http GET https://registry.npmjs.org/sequelize
+77 verbose request where is /http
+78 verbose request registry https://registry.npmjs.org/
+79 verbose url raw /http
+80 verbose url resolving [ 'https://registry.npmjs.org/', './http' ]
+81 verbose url resolved https://registry.npmjs.org/http
+82 verbose request where is https://registry.npmjs.org/http
+83 info trying registry request attempt 1 at 15:42:11
+84 verbose etag "9ARRJ1G4SWEZRN9FK6352ZEYA"
+85 http GET https://registry.npmjs.org/http
+86 verbose request where is /express
+87 verbose request registry https://registry.npmjs.org/
+88 verbose url raw /express
+89 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+90 verbose url resolved https://registry.npmjs.org/express
+91 verbose request where is https://registry.npmjs.org/express
+92 info trying registry request attempt 1 at 15:42:11
+93 verbose etag "CD0RNE5TLG2ZA8P8Y9NW8G03I"
+94 http GET https://registry.npmjs.org/express
+95 info retry fetch attempt 1 at 15:42:11
+96 verbose fetch to= /tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+97 http GET https://github.com/surli/sequelize-restful
+98 http 304 https://registry.npmjs.org/pg
+99 silly registry.get cb [ 304,
+99 silly registry.get   { date: 'Wed, 22 Apr 2015 13:42:11 GMT',
+99 silly registry.get     server: 'Apache',
+99 silly registry.get     via: '1.1 varnish',
+99 silly registry.get     'last-modified': 'Wed, 22 Apr 2015 13:42:11 GMT',
+99 silly registry.get     'cache-control': 'max-age=60',
+99 silly registry.get     etag: '"EO0OJRGUHKVGVIR0BEAIMAI5J"',
+99 silly registry.get     age: '42',
+99 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+99 silly registry.get     'x-cache': 'HIT',
+99 silly registry.get     'x-cache-hits': '1',
+99 silly registry.get     'x-timer': 'S1429710131.242766,VS0,VE0',
+99 silly registry.get     vary: 'Accept',
+99 silly registry.get     'content-length': '0',
+99 silly registry.get     'keep-alive': 'timeout=10, max=50',
+99 silly registry.get     connection: 'Keep-Alive' } ]
+100 verbose etag https://registry.npmjs.org/pg from cache
+101 http 304 https://registry.npmjs.org/express
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Wed, 22 Apr 2015 13:42:11 GMT',
+102 silly registry.get     server: 'Apache',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'last-modified': 'Wed, 22 Apr 2015 13:41:40 GMT',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     etag: '"CD0RNE5TLG2ZA8P8Y9NW8G03I"',
+102 silly registry.get     age: '45',
+102 silly registry.get     'x-served-by': 'cache-fra1246-FRA',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '3',
+102 silly registry.get     'x-timer': 'S1429710131.246131,VS0,VE0',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'content-length': '0',
+102 silly registry.get     'keep-alive': 'timeout=10, max=50',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 verbose etag https://registry.npmjs.org/express from cache
+104 silly addNameRange number 2 { name: 'pg', range: '>=3.4.1-0 <4.0.0-0', hasData: true }
+105 silly addNameRange versions [ 'pg',
+105 silly addNameRange   [ '0.4.1',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.5.1',
+105 silly addNameRange     '0.5.2',
+105 silly addNameRange     '0.5.3',
+105 silly addNameRange     '0.5.4',
+105 silly addNameRange     '0.5.5',
+105 silly addNameRange     '0.5.6',
+105 silly addNameRange     '0.5.7',
+105 silly addNameRange     '0.5.8',
+105 silly addNameRange     '0.6.0',
+105 silly addNameRange     '0.6.1',
+105 silly addNameRange     '0.6.2',
+105 silly addNameRange     '0.6.3',
+105 silly addNameRange     '0.6.4',
+105 silly addNameRange     '0.6.5',
+105 silly addNameRange     '0.6.6',
+105 silly addNameRange     '0.6.7',
+105 silly addNameRange     '0.6.8',
+105 silly addNameRange     '0.6.9',
+105 silly addNameRange     '0.6.10',
+105 silly addNameRange     '0.6.11',
+105 silly addNameRange     '0.6.12',
+105 silly addNameRange     '0.6.13',
+105 silly addNameRange     '0.6.14',
+105 silly addNameRange     '0.6.15',
+105 silly addNameRange     '0.6.16',
+105 silly addNameRange     '0.6.17',
+105 silly addNameRange     '0.6.18',
+105 silly addNameRange     '0.7.0',
+105 silly addNameRange     '0.7.1',
+105 silly addNameRange     '0.7.2',
+105 silly addNameRange     '0.8.0',
+105 silly addNameRange     '0.8.1',
+105 silly addNameRange     '0.8.2',
+105 silly addNameRange     '0.8.3',
+105 silly addNameRange     '0.8.4',
+105 silly addNameRange     '0.8.6',
+105 silly addNameRange     '0.8.7',
+105 silly addNameRange     '0.8.8',
+105 silly addNameRange     '0.9.0',
+105 silly addNameRange     '0.10.0',
+105 silly addNameRange     '0.10.2',
+105 silly addNameRange     '0.11.1',
+105 silly addNameRange     '0.11.2',
+105 silly addNameRange     '0.11.3',
+105 silly addNameRange     '0.12.0',
+105 silly addNameRange     '0.12.1',
+105 silly addNameRange     '0.12.3',
+105 silly addNameRange     '0.13.0',
+105 silly addNameRange     '0.13.1',
+105 silly addNameRange     '0.13.3',
+105 silly addNameRange     '0.14.0',
+105 silly addNameRange     '0.14.1',
+105 silly addNameRange     '0.15.0',
+105 silly addNameRange     '0.15.1',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.0.1',
+105 silly addNameRange     '1.0.2',
+105 silly addNameRange     '1.0.3',
+105 silly addNameRange     '1.0.4',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.1.1',
+105 silly addNameRange     '1.1.2',
+105 silly addNameRange     '1.1.3',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.3.0',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.3.0',
+105 silly addNameRange     '2.3.1',
+105 silly addNameRange     '2.4.0',
+105 silly addNameRange     '2.5.0',
+105 silly addNameRange     '2.5.1',
+105 silly addNameRange     '2.6.0',
+105 silly addNameRange     '2.6.1',
+105 silly addNameRange     '2.6.2',
+105 silly addNameRange     '2.7.0',
+105 silly addNameRange     '2.8.0',
+105 silly addNameRange     '2.8.1',
+105 silly addNameRange     '2.8.2',
+105 silly addNameRange     '2.8.3',
+105 silly addNameRange     '2.8.4',
+105 silly addNameRange     '2.8.5',
+105 silly addNameRange     '2.9.0',
+105 silly addNameRange     '2.10.0',
+105 silly addNameRange     '2.11.0',
+105 silly addNameRange     '2.11.1',
+105 silly addNameRange     '3.0.2',
+105 silly addNameRange     '3.0.3',
+105 silly addNameRange     '3.1.0',
+105 silly addNameRange     '3.2.0',
+105 silly addNameRange     '3.3.0',
+105 silly addNameRange     '3.4.0',
+105 silly addNameRange     '3.4.1',
+105 silly addNameRange     '3.4.2',
+105 silly addNameRange     '3.4.3',
+105 silly addNameRange     '3.4.4',
+105 silly addNameRange     '3.4.5',
+105 silly addNameRange     '3.5.0',
+105 silly addNameRange     '3.6.0',
+105 silly addNameRange     '4.0.0-beta2',
+105 silly addNameRange     '3.6.1',
+105 silly addNameRange     '3.6.2',
+105 silly addNameRange     '3.6.3',
+105 silly addNameRange     '4.0.0',
+105 silly addNameRange     '4.1.0',
+105 silly addNameRange     '4.1.1',
+105 silly addNameRange     '4.2.0',
+105 silly addNameRange     '4.3.0' ] ]
+106 verbose addNamed [ 'pg', '3.6.3' ]
+107 verbose addNamed [ '3.6.3', '3.6.3' ]
+108 silly lockFile 9fec41a6-pg-3-6-3 pg@3.6.3
+109 verbose lock pg@3.6.3 /home/user/.npm/9fec41a6-pg-3-6-3.lock
+110 silly addNameRange number 2 { name: 'express', range: '>=4.8.3-0 <5.0.0-0', hasData: true }
+111 silly addNameRange versions [ 'express',
+111 silly addNameRange   [ '0.14.0',
+111 silly addNameRange     '0.14.1',
+111 silly addNameRange     '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.0.3',
+111 silly addNameRange     '1.0.4',
+111 silly addNameRange     '1.0.5',
+111 silly addNameRange     '1.0.6',
+111 silly addNameRange     '1.0.7',
+111 silly addNameRange     '1.0.8',
+111 silly addNameRange     '2.0.0',
+111 silly addNameRange     '2.1.0',
+111 silly addNameRange     '2.1.1',
+111 silly addNameRange     '2.2.0',
+111 silly addNameRange     '2.2.1',
+111 silly addNameRange     '2.2.2',
+111 silly addNameRange     '2.3.0',
+111 silly addNameRange     '2.3.1',
+111 silly addNameRange     '2.3.2',
+111 silly addNameRange     '2.3.3',
+111 silly addNameRange     '2.3.4',
+111 silly addNameRange     '2.3.5',
+111 silly addNameRange     '2.3.6',
+111 silly addNameRange     '2.3.7',
+111 silly addNameRange     '2.3.8',
+111 silly addNameRange     '2.3.9',
+111 silly addNameRange     '2.3.10',
+111 silly addNameRange     '2.3.11',
+111 silly addNameRange     '2.3.12',
+111 silly addNameRange     '2.4.0',
+111 silly addNameRange     '2.4.1',
+111 silly addNameRange     '2.4.2',
+111 silly addNameRange     '2.4.3',
+111 silly addNameRange     '2.4.4',
+111 silly addNameRange     '2.4.5',
+111 silly addNameRange     '2.4.6',
+111 silly addNameRange     '2.4.7',
+111 silly addNameRange     '2.5.0',
+111 silly addNameRange     '2.5.1',
+111 silly addNameRange     '2.5.2',
+111 silly addNameRange     '2.5.3',
+111 silly addNameRange     '2.5.4',
+111 silly addNameRange     '2.5.5',
+111 silly addNameRange     '2.5.6',
+111 silly addNameRange     '2.5.7',
+111 silly addNameRange     '2.5.8',
+111 silly addNameRange     '2.5.9',
+111 silly addNameRange     '2.5.10',
+111 silly addNameRange     '2.5.11',
+111 silly addNameRange     '3.0.0',
+111 silly addNameRange     '3.0.1',
+111 silly addNameRange     '3.0.2',
+111 silly addNameRange     '3.0.3',
+111 silly addNameRange     '3.0.4',
+111 silly addNameRange     '3.0.5',
+111 silly addNameRange     '3.0.6',
+111 silly addNameRange     '3.1.0',
+111 silly addNameRange     '3.1.1',
+111 silly addNameRange     '3.1.2',
+111 silly addNameRange     '3.2.0',
+111 silly addNameRange     '3.2.1',
+111 silly addNameRange     '3.2.2',
+111 silly addNameRange     '3.2.3',
+111 silly addNameRange     '3.2.4',
+111 silly addNameRange     '3.2.5',
+111 silly addNameRange     '3.2.6',
+111 silly addNameRange     '3.3.0',
+111 silly addNameRange     '3.3.1',
+111 silly addNameRange     '3.3.2',
+111 silly addNameRange     '3.3.3',
+111 silly addNameRange     '3.3.4',
+111 silly addNameRange     '3.3.5',
+111 silly addNameRange     '3.3.6',
+111 silly addNameRange     '1.0.0-beta',
+111 silly addNameRange     '1.0.0-beta2',
+111 silly addNameRange     '1.0.0-rc',
+111 silly addNameRange     '1.0.0-rc2',
+111 silly addNameRange     '1.0.0-rc3',
+111 silly addNameRange     '1.0.0-rc4',
+111 silly addNameRange     '2.0.0-beta',
+111 silly addNameRange     '2.0.0-beta2',
+111 silly addNameRange     '2.0.0-beta3',
+111 silly addNameRange     '2.0.0-rc',
+111 silly addNameRange     '2.0.0-rc2',
+111 silly addNameRange     '2.0.0-rc3',
+111 silly addNameRange     '3.0.0-alpha1',
+111 silly addNameRange     '3.0.0-alpha2',
+111 silly addNameRange     '3.0.0-alpha3',
+111 silly addNameRange     '3.0.0-alpha4',
+111 silly addNameRange     '3.0.0-alpha5',
+111 silly addNameRange     '3.0.0-beta1',
+111 silly addNameRange     '3.0.0-beta2',
+111 silly addNameRange     '3.0.0-beta3',
+111 silly addNameRange     '3.0.0-beta4',
+111 silly addNameRange     '3.0.0-beta6',
+111 silly addNameRange     '3.0.0-beta7',
+111 silly addNameRange     '3.0.0-rc1',
+111 silly addNameRange     '3.0.0-rc2',
+111 silly addNameRange     '3.0.0-rc3',
+111 silly addNameRange     '3.0.0-rc4',
+111 silly addNameRange     '3.0.0-rc5',
+111 silly addNameRange     '3.3.7',
+111 silly addNameRange     '3.3.8',
+111 silly addNameRange     '3.4.0',
+111 silly addNameRange     '3.4.1',
+111 silly addNameRange     '3.4.2',
+111 silly addNameRange     '3.4.3',
+111 silly addNameRange     '3.4.4',
+111 silly addNameRange     '3.4.5',
+111 silly addNameRange     '3.4.6',
+111 silly addNameRange     '3.4.7',
+111 silly addNameRange     '3.4.8',
+111 silly addNameRange     '4.0.0-rc1',
+111 silly addNameRange     '4.0.0-rc2',
+111 silly addNameRange     '3.5.0',
+111 silly addNameRange     '4.0.0-rc3',
+111 silly addNameRange     '4.0.0-rc4',
+111 silly addNameRange     '3.5.1',
+111 silly addNameRange     '4.0.0',
+111 silly addNameRange     '3.5.2',
+111 silly addNameRange     '4.1.0',
+111 silly addNameRange     '4.1.1',
+111 silly addNameRange     '3.5.3',
+111 silly addNameRange     '4.1.2',
+111 silly addNameRange     '3.6.0',
+111 silly addNameRange     '4.2.0',
+111 silly addNameRange     '3.7.0',
+111 silly addNameRange     '3.8.0',
+111 silly addNameRange     '4.3.0',
+111 silly addNameRange     '4.3.1',
+111 silly addNameRange     '3.8.1',
+111 silly addNameRange     '4.3.2',
+111 silly addNameRange     '3.9.0',
+111 silly addNameRange     '4.4.0',
+111 silly addNameRange     '4.4.1',
+111 silly addNameRange     '3.10.0',
+111 silly addNameRange     '3.10.1',
+111 silly addNameRange     '3.10.2',
+111 silly addNameRange     '3.10.3',
+111 silly addNameRange     '3.10.4',
+111 silly addNameRange     '4.4.2',
+111 silly addNameRange     '3.10.5',
+111 silly addNameRange     '4.4.3',
+111 silly addNameRange     '3.11.0',
+111 silly addNameRange     '4.4.4',
+111 silly addNameRange     '3.12.0',
+111 silly addNameRange     '3.12.1',
+111 silly addNameRange     '4.4.5',
+111 silly addNameRange     '3.13.0',
+111 silly addNameRange     '4.5.0',
+111 silly addNameRange     '4.5.1',
+111 silly addNameRange     '3.14.0',
+111 silly addNameRange     '4.6.0',
+111 silly addNameRange     '4.6.1',
+111 silly addNameRange     '3.15.0',
+111 silly addNameRange     '4.7.0',
+111 silly addNameRange     '3.15.1',
+111 silly addNameRange     '4.7.1',
+111 silly addNameRange     '3.15.2',
+111 silly addNameRange     '4.7.2',
+111 silly addNameRange     '4.7.3',
+111 silly addNameRange     '3.15.3',
+111 silly addNameRange     '4.7.4',
+111 silly addNameRange     '3.16.0',
+111 silly addNameRange     '4.8.0',
+111 silly addNameRange     '3.16.1',
+111 silly addNameRange     '4.8.1',
+111 silly addNameRange     '3.16.2',
+111 silly addNameRange     '4.8.2',
+111 silly addNameRange     '3.16.3',
+111 silly addNameRange     '3.16.4',
+111 silly addNameRange     '4.8.3',
+111 silly addNameRange     '3.16.5',
+111 silly addNameRange     '3.16.6',
+111 silly addNameRange     '4.8.4',
+111 silly addNameRange     '3.16.7',
+111 silly addNameRange     '4.8.5',
+111 silly addNameRange     '3.16.8',
+111 silly addNameRange     '4.8.6',
+111 silly addNameRange     '3.16.9',
+111 silly addNameRange     '4.8.7',
+111 silly addNameRange     '3.16.10',
+111 silly addNameRange     '4.8.8',
+111 silly addNameRange     '3.17.0',
+111 silly addNameRange     '3.17.1',
+111 silly addNameRange     '4.9.0',
+111 silly addNameRange     '3.17.2',
+111 silly addNameRange     '4.9.1',
+111 silly addNameRange     '4.9.2',
+111 silly addNameRange     '3.17.3',
+111 silly addNameRange     '4.9.3',
+111 silly addNameRange     '3.17.4',
+111 silly addNameRange     '4.9.4',
+111 silly addNameRange     '3.17.5',
+111 silly addNameRange     '4.9.5',
+111 silly addNameRange     '3.17.6',
+111 silly addNameRange     '3.17.7',
+111 silly addNameRange     '4.9.6',
+111 silly addNameRange     '4.9.7',
+111 silly addNameRange     '3.17.8',
+111 silly addNameRange     '4.9.8',
+111 silly addNameRange     '3.18.0',
+111 silly addNameRange     '3.18.1',
+111 silly addNameRange     '4.10.0',
+111 silly addNameRange     '3.18.2',
+111 silly addNameRange     '4.10.1',
+111 silly addNameRange     '5.0.0-alpha.1',
+111 silly addNameRange     '3.18.3',
+111 silly addNameRange     '4.10.2',
+111 silly addNameRange     '3.18.4',
+111 silly addNameRange     '4.10.3',
+111 silly addNameRange     '4.10.4',
+111 silly addNameRange     '4.10.5',
+111 silly addNameRange     '3.18.5',
+111 silly addNameRange     '3.18.6',
+111 silly addNameRange     '4.10.6',
+111 silly addNameRange     '4.10.7',
+111 silly addNameRange     '3.19.0',
+111 silly addNameRange     '4.10.8',
+111 silly addNameRange     '4.11.0',
+111 silly addNameRange     '3.19.1',
+111 silly addNameRange     '4.11.1',
+111 silly addNameRange     '3.19.2',
+111 silly addNameRange     '4.11.2',
+111 silly addNameRange     '3.20.0',
+111 silly addNameRange     '4.12.0',
+111 silly addNameRange     '3.20.1',
+111 silly addNameRange     '4.12.1',
+111 silly addNameRange     '4.12.2',
+111 silly addNameRange     '3.20.2',
+111 silly addNameRange     '4.12.3' ] ]
+112 verbose addNamed [ 'express', '4.12.3' ]
+113 verbose addNamed [ '4.12.3', '4.12.3' ]
+114 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+115 verbose lock express@4.12.3 /home/user/.npm/0b3fc563-express-4-12-3.lock
+116 silly lockFile 9fec41a6-pg-3-6-3 pg@3.6.3
+117 silly lockFile 9fec41a6-pg-3-6-3 pg@3.6.3
+118 silly lockFile b5cc6abf-pg-3-4-1 pg@^3.4.1
+119 silly lockFile b5cc6abf-pg-3-4-1 pg@^3.4.1
+120 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+121 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+122 silly lockFile 12ef111c-express-4-8-3 express@^4.8.3
+123 silly lockFile 12ef111c-express-4-8-3 express@^4.8.3
+124 http 304 https://registry.npmjs.org/http
+125 silly registry.get cb [ 304,
+125 silly registry.get   { date: 'Wed, 22 Apr 2015 13:42:11 GMT',
+125 silly registry.get     server: 'Apache',
+125 silly registry.get     via: '1.1 varnish',
+125 silly registry.get     'last-modified': 'Wed, 22 Apr 2015 13:42:11 GMT',
+125 silly registry.get     'cache-control': 'max-age=60',
+125 silly registry.get     etag: '"9ARRJ1G4SWEZRN9FK6352ZEYA"',
+125 silly registry.get     age: '0',
+125 silly registry.get     'x-served-by': 'cache-fra1242-FRA',
+125 silly registry.get     'x-cache': 'HIT',
+125 silly registry.get     'x-cache-hits': '1',
+125 silly registry.get     'x-timer': 'S1429710131.224197,VS0,VE105',
+125 silly registry.get     vary: 'Accept',
+125 silly registry.get     'content-length': '0',
+125 silly registry.get     'keep-alive': 'timeout=10, max=50',
+125 silly registry.get     connection: 'Keep-Alive' } ]
+126 verbose etag https://registry.npmjs.org/http from cache
+127 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+128 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+129 http 304 https://registry.npmjs.org/sequelize
+130 silly registry.get cb [ 304,
+130 silly registry.get   { date: 'Wed, 22 Apr 2015 13:42:11 GMT',
+130 silly registry.get     server: 'Apache',
+130 silly registry.get     via: '1.1 varnish',
+130 silly registry.get     'last-modified': 'Wed, 22 Apr 2015 13:42:11 GMT',
+130 silly registry.get     'cache-control': 'max-age=60',
+130 silly registry.get     etag: '"1W0KK8WNWCU6P3SYM1WKX4BIF"',
+130 silly registry.get     age: '0',
+130 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+130 silly registry.get     'x-cache': 'HIT',
+130 silly registry.get     'x-cache-hits': '1',
+130 silly registry.get     'x-timer': 'S1429710131.234883,VS0,VE173',
+130 silly registry.get     vary: 'Accept',
+130 silly registry.get     'content-length': '0',
+130 silly registry.get     'keep-alive': 'timeout=10, max=50',
+130 silly registry.get     connection: 'Keep-Alive' } ]
+131 verbose etag https://registry.npmjs.org/sequelize from cache
+132 silly addNameRange number 2 { name: 'sequelize', range: '>=1.7.9-0 <2.0.0-0', hasData: true }
+133 silly addNameRange versions [ 'sequelize',
+133 silly addNameRange   [ '0.2.2',
+133 silly addNameRange     '0.2.3',
+133 silly addNameRange     '0.2.4',
+133 silly addNameRange     '0.2.5',
+133 silly addNameRange     '0.2.6',
+133 silly addNameRange     '0.3.0',
+133 silly addNameRange     '0.4.0',
+133 silly addNameRange     '0.4.1',
+133 silly addNameRange     '0.4.2',
+133 silly addNameRange     '0.4.3',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.0.1',
+133 silly addNameRange     '1.0.2',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.1.2',
+133 silly addNameRange     '1.1.3',
+133 silly addNameRange     '1.1.4',
+133 silly addNameRange     '1.2.0',
+133 silly addNameRange     '1.2.1',
+133 silly addNameRange     '1.3.0',
+133 silly addNameRange     '1.3.1',
+133 silly addNameRange     '1.3.2',
+133 silly addNameRange     '1.3.3',
+133 silly addNameRange     '1.3.4',
+133 silly addNameRange     '1.3.5',
+133 silly addNameRange     '1.3.6',
+133 silly addNameRange     '1.3.7',
+133 silly addNameRange     '1.4.0',
+133 silly addNameRange     '1.4.1',
+133 silly addNameRange     '1.5.0-alpha',
+133 silly addNameRange     '1.5.0-beta',
+133 silly addNameRange     '1.5.0-beta-2',
+133 silly addNameRange     '1.5.0',
+133 silly addNameRange     '1.6.0-alpha-1',
+133 silly addNameRange     '1.6.0-alpha-2',
+133 silly addNameRange     '1.6.0-alpha-3',
+133 silly addNameRange     '1.6.0-beta-1',
+133 silly addNameRange     '1.6.0-beta-2',
+133 silly addNameRange     '1.6.0-beta-3',
+133 silly addNameRange     '1.6.0-beta4',
+133 silly addNameRange     '1.6.0',
+133 silly addNameRange     '1.7.0-alpha1',
+133 silly addNameRange     '1.7.0-alpha2',
+133 silly addNameRange     '2.0.0-alpha1',
+133 silly addNameRange     '2.0.0-alpha2',
+133 silly addNameRange     '1.7.0-alpha3',
+133 silly addNameRange     '2.0.0-alpha3',
+133 silly addNameRange     '1.7.0-beta.0',
+133 silly addNameRange     '2.0.0-beta.0',
+133 silly addNameRange     '1.7.0-beta.1',
+133 silly addNameRange     '2.0.0-beta.1',
+133 silly addNameRange     '1.7.0-beta.2',
+133 silly addNameRange     '2.0.0-beta.2',
+133 silly addNameRange     '1.7.0-beta.3b',
+133 silly addNameRange     '2.0.0-beta.3',
+133 silly addNameRange     '1.7.0-beta.4a',
+133 silly addNameRange     '2.0.0-beta.4',
+133 silly addNameRange     '1.7.0-beta.5',
+133 silly addNameRange     '2.0.0-beta.5',
+133 silly addNameRange     '1.7.0-beta6',
+133 silly addNameRange     '2.0.0-beta.6',
+133 silly addNameRange     '1.7.0-beta7',
+133 silly addNameRange     '2.0.0-beta.7',
+133 silly addNameRange     '2.0.0-beta.8',
+133 silly addNameRange     '1.7.0-beta8',
+133 silly addNameRange     '1.7.0-rc1',
+133 silly addNameRange     '2.0.0-dev1',
+133 silly addNameRange     '1.7.0-rc2',
+133 silly addNameRange     '2.0.0-dev2',
+133 silly addNameRange     '1.7.0-rc3',
+133 silly addNameRange     '2.0.0-dev3',
+133 silly addNameRange     '1.7.0-rc4',
+133 silly addNameRange     '2.0.0-dev4',
+133 silly addNameRange     '2.0.0-dev5',
+133 silly addNameRange     '1.7.0-rc5',
+133 silly addNameRange     '1.7.0-rc6',
+133 silly addNameRange     '2.0.0-dev6',
+133 silly addNameRange     '2.0.0-dev7',
+133 silly addNameRange     '1.7.0-rc7',
+133 silly addNameRange     '2.0.0-dev8',
+133 silly addNameRange     '1.7.0-rc8',
+133 silly addNameRange     '1.7.0-rc9',
+133 silly addNameRange     '2.0.0-dev9',
+133 silly addNameRange     '2.0.0-dev10',
+133 silly addNameRange     '1.7.0',
+133 silly addNameRange     '1.7.1',
+133 silly addNameRange     '1.7.2',
+133 silly addNameRange     '1.7.3',
+133 silly addNameRange     '2.0.0-dev11',
+133 silly addNameRange     '1.7.4',
+133 silly addNameRange     '1.7.5',
+133 silly addNameRange     '1.7.7',
+133 silly addNameRange     '1.7.8',
+133 silly addNameRange     '1.7.9',
+133 silly addNameRange     '2.0.0-dev12',
+133 silly addNameRange     '1.7.10',
+133 silly addNameRange     '2.0.0-dev13',
+133 silly addNameRange     '2.0.0-rc1',
+133 silly addNameRange     '2.0.0-rc2',
+133 silly addNameRange     '2.0.0-rc3',
+133 silly addNameRange     '2.0.0-rc4',
+133 silly addNameRange     '2.0.0-rc5',
+133 silly addNameRange     '2.0.0-rc6',
+133 silly addNameRange     '2.0.0-rc7',
+133 silly addNameRange     '2.0.0-rc8',
+133 silly addNameRange     '2.0.0',
+133 silly addNameRange     '2.0.1',
+133 silly addNameRange     '2.0.2',
+133 silly addNameRange     '2.0.3',
+133 silly addNameRange     '2.0.4',
+133 silly addNameRange     '2.0.5',
+133 silly addNameRange     '2.0.6' ] ]
+134 verbose addNamed [ 'sequelize', '1.7.10' ]
+135 verbose addNamed [ '1.7.10', '1.7.10' ]
+136 silly lockFile 03f70826-sequelize-1-7-10 sequelize@1.7.10
+137 verbose lock sequelize@1.7.10 /home/user/.npm/03f70826-sequelize-1-7-10.lock
+138 silly lockFile 03f70826-sequelize-1-7-10 sequelize@1.7.10
+139 silly lockFile 03f70826-sequelize-1-7-10 sequelize@1.7.10
+140 silly lockFile be388cdd-sequelize-1-7-9 sequelize@^1.7.9
+141 silly lockFile be388cdd-sequelize-1-7-9 sequelize@^1.7.9
+142 http 200 https://github.com/surli/sequelize-restful
+143 verbose tar unpack /tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+144 silly lockFile cb5d36a4-m-surli-sequelize-restful-unpack tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack
+145 verbose lock tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack /home/user/.npm/cb5d36a4-m-surli-sequelize-restful-unpack.lock
+146 silly lockFile 52774dcf-thub-com-surli-sequelize-restful tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+147 verbose lock tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful /home/user/.npm/52774dcf-thub-com-surli-sequelize-restful.lock
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 error not a package /tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+150 silly lockFile cb5d36a4-m-surli-sequelize-restful-unpack tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack
+151 silly lockFile cb5d36a4-m-surli-sequelize-restful-unpack tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack
+152 silly lockFile 52774dcf-thub-com-surli-sequelize-restful tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+153 silly lockFile 52774dcf-thub-com-surli-sequelize-restful tar:///tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful
+154 silly lockFile 1ca755e5-thub-com-surli-sequelize-restful https://github.com/surli/sequelize-restful
+155 silly lockFile 1ca755e5-thub-com-surli-sequelize-restful https://github.com/surli/sequelize-restful
+156 error Error: ENOENT, open '/tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack/package.json'
+157 error If you need help, you may report this *entire* log,
+157 error including the npm and node versions, at:
+157 error     <http://github.com/npm/npm/issues>
+158 error System Linux 3.13.0-49-generic
+159 error command "/usr/bin/node" "/usr/bin/npm" "install"
+160 error cwd /home/user/Bureau/POOIHM/IHMF/poo-ihm-2015-database
+161 error node -v v0.10.38
+162 error npm -v 1.4.28
+163 error path /tmp/npm-26049-g06QgZ3t/github.com/surli/sequelize-restful-unpack/package.json
+164 error code ENOENT
+165 error errno 34
+166 verbose exit [ 34, true ]
